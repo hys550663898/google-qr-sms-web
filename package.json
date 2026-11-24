@@ -1,0 +1,1 @@
+{"description":"Local web UI + CDP reimplementation of google-qr-sms-helper: downgrade Google's QR-code verification to SMS without installing a browser extension.","engines":{"node":">=22"},"license":"MIT","name":"google-qr-sms-web","private":true,"scripts":{"start":"node server.js","test":"node --test"},"type":"commonjs","version":"0.1.0"}

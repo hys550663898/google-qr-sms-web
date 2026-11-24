@@ -1,0 +1,12 @@
+google-qr-sms-web
+
+Portions of this project are adapted from google-qr-sms-helper
+(https://github.com/havenicec/google-qr-sms-helper), Copyright (c)
+havenicec, used under the MIT License.
+
+Adapted material includes: the QR-code extraction logic, the
+devicephoneverification batchexecute RPC sequence (MypxBd / YDtwf),
+the [3,null,4] fallback check, the selection-page URL construction,
+the iPad Mini / iPhone user-agent strings, and the navigator spoof
+property set. The delivery mechanism (Chrome DevTools Protocol
+instead of a browser extension) is original to this project.
